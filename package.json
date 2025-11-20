@@ -1,5 +1,5 @@
 {
-  "name": "chrome-devtools-mcp",
+  "name": "@bachstudio/chrome-devtools-mcp",
   "version": "0.10.2",
   "description": "MCP server for Chrome DevTools",
   "type": "module",
@@ -21,7 +21,6 @@
     "test:only": "npm run build && node --require ./build/tests/setup.js --no-warnings=ExperimentalWarning --test-reporter spec --test-force-exit --test --test-only \"build/tests/**/*.test.js\"",
     "test:only:no-build": "node --require ./build/tests/setup.js --no-warnings=ExperimentalWarning --test-reporter spec --test-force-exit --test --test-only \"build/tests/**/*.test.js\"",
     "test:update-snapshots": "npm run build && node --require ./build/tests/setup.js --no-warnings=ExperimentalWarning --test-force-exit --test --test-update-snapshots \"build/tests/**/*.test.js\"",
-    "prepare": "node --experimental-strip-types scripts/prepare.ts",
     "verify-server-json-version": "node --experimental-strip-types scripts/verify-server-json-version.ts"
   },
   "files": [
@@ -30,14 +29,14 @@
     "LICENSE",
     "!*.tsbuildinfo"
   ],
-  "repository": "ChromeDevTools/chrome-devtools-mcp",
-  "author": "Google LLC",
+  "repository": "github:BACH-AI-Tools/chrome-devtools-mcp",
+  "author": "bachstudio",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/issues"
+    "url": "https://github.com/BACH-AI-Tools/chrome-devtools-mcp/issues"
   },
-  "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp#readme",
-  "mcpName": "io.github.ChromeDevTools/chrome-devtools-mcp",
+  "homepage": "https://github.com/BACH-AI-Tools/chrome-devtools-mcp#readme",
+  "mcpName": "io.github.BACH-AI-Tools/chrome-devtools-mcp",
   "devDependencies": {
     "@eslint/js": "^9.35.0",
     "@modelcontextprotocol/sdk": "1.21.1",
