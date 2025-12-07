@@ -38,11 +38,11 @@
   "homepage": "https://github.com/BACH-AI-Tools/chrome-devtools-mcp#readme",
   "mcpName": "io.github.BACH-AI-Tools/chrome-devtools-mcp",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.21.1",
+    "@modelcontextprotocol/sdk": "1.24.3",
     "chrome-devtools-frontend": "1.0.1544076",
-    "core-js": "3.46.0",
+    "core-js": "3.47.0",
     "debug": "4.4.3",
-    "puppeteer": "24.30.0",
+    "puppeteer": "24.32.0",
     "yargs": "18.0.0"
   },
   "devDependencies": {
