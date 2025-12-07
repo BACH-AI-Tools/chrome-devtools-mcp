@@ -39,7 +39,7 @@
   "mcpName": "io.github.BACH-AI-Tools/chrome-devtools-mcp",
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.21.1",
-    "chrome-devtools-frontend": "1.0.1544076",
+    "chrome-devtools-frontend": "1.0.1553956",
     "core-js": "3.46.0",
     "debug": "4.4.3",
     "puppeteer": "24.30.0",
